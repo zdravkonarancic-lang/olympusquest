@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympus Quest - Home</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <meta name="description" content="Welcome to Olympus Quest. Explore Greece's ancient legends and untamed landscapes where every path tells a story.">
+    <meta name="keywords" content="travel, adventure, greece">
+    <meta name="author" content="Zdravko Narančić 68/24">
+    <meta name="copyright" content="Olympus Quest 2025 ©">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/index.js" defer></script>
+    <script src="script/jquery_animations.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<nav id="main-nav">
+</nav>
+
+<div id="mainSlider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="img-container">
+                <img src="assets/img/thessaloniki1.jpg" class="hero-img" alt="Thessaloniki">
+            </div>
+            <div class="carousel-caption custom-caption">
+                <h1 class="fw-bold">START EXPLORING GREECE</h1>
+                <p>Pick your new adventure</p>
+                <a href="destinations.html" class="btn main-btn">Choose a destination</a>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="img-container">
+                <img src="assets/img/santorini1.jpg" class="hero-img" alt="Santorini">
+            </div>
+            <div class="carousel-caption custom-caption">
+                <h1 class="fw-bold">Divine Nature</h1>
+                <p>Breathtaking Landscapes of Greece</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="img-container">
+                <img src="assets/img/crete1.png" class="hero-img" alt="Crete">
+            </div>
+            <div class="carousel-caption custom-caption">
+                <h1 class="fw-bold">SUMMER AIN'T OVER YET!</h1>
+                <p>Explore the beauty of Greece for less.</p>
+                <a href="#contact" class="btn main-btn">Take me there</a>
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <section id="agency-preview" class="py-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-4 section-title">Discover Greece with Olympus Quest</h2>
+                    <p id="shortDescription" class="description-text">
+                        Explore Greece's ancient legends and untamed landscapes where every path tells a story. 
+                        From the endless blue of the Aegean Sea to the golden sands of Mediterranean shores, 
+                        we bring you the ultimate journey through the natural wonders of Greece
+                        <span id="dots">...</span>
+                        <span id="additional-text">
+                             . Our mission is to guide you through hidden coastal gems and picturesque villages 
+                            that capture the true spirit of Greek hospitality. Join us as we redefine travel 
+                            in the land of light and history, providing curated experiences tailored for true explorers 
+                            who seek more than just a vacation.
+                        </span>
+                    </p>
+                    <button id="btn-read-more" class="btn-read-more mt-3">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<section id="popular-destinations" class="py-5">
+    <div class="container-fluid px-custom text-center">
+        <h2 class="fw-bold mb-5 section-title">Popular Destinations</h2>
+        <div class="row gx-5 gy-4 justify-content-center">
+            <div class="col-lg-3 col-md-6">
+                <div class="destination-card">
+                    <img src="assets/img/santorini3.jpg" alt="Santorini">
+                    <div class="destination-description">
+                        <h3>Santorini</h3>
+                        <p>Experience the world-famous sunsets and iconic blue domes of the Cyclades overlooking the breathtaking volcanic caldera.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="destination-card">
+                    <img src="assets/img/thessaloniki2.jpg" alt="Thessaloniki">
+                    <div class="destination-description">
+                        <h3>Thessaloniki</h3>
+                        <p>Explore the vibrant cultural capital where ancient Byzantine history meets a modern, energetic waterfront lifestyle.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="destination-card">
+                    <img src="assets/img/rhodes2.jpg" alt="Rhodes">
+                    <div class="destination-description">
+                        <h3>Rhodes</h3>
+                        <p>Journey through the medieval Old Town and relax on golden beaches surrounded by emerald Mediterranean waters.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="destination-card">
+                    <img src="assets/img/crete2.jpg" alt="Crete">
+                    <div class="destination-description">
+                        <h3>Crete</h3>
+                        <p>Discover the birthplace of myths, home to the Minoan palaces and some of Europe’s most exotic hidden lagoons.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="accomodation" class="py-5">
+    <div class="container-fluid text-center px-custom">
+        <h2 class="fw-bold mb-2 section-title">Featured Hotels & Villas</h2>
+        <p class="mb-5 text-muted">(Popular Accommodations)</p>
+        
+        <div id="accommodations-container" class="row g-4 justify-content-center"></div>
+        
+        <div class="text-center mt-5">
+            <div id="short-notice-display"></div>
+            <button id="load-more-btn" class="btn-load-main">SHOW MORE</button>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container text-center mt-5">
+    <h2 class="title-blue">FILL OUT A FORM</h2>
+    <h4 class="subtitle-blue">EXPERIENCE A GREEK SUMMER FOR 15% OFF</h4>
+</div>
+<div id="form-wrapper"></div>
+<div class="container mt-5">
+    <div class="disclaimer-box">
+        <p><strong>DISCLAIMER:</strong> Unfortunately, at this moment we are not available to send confirmation through an email, so please  carefully save or take a photo of your discount number.</p>
+        <p>This promotion is valid from <strong>May 15th, 2026</strong> 'til <strong>September 15th 2026</strong>. It applies for <strong>one person only</strong> and for <strong>one selected destination</strong></p>
+        <p>If you choose to send your data via email, you must provide a scan or photo of your <strong>ID or passport</strong>. The data on the document (First Name, Last Name and  Date of Birth) must match information entered in the form!</p>
+    </div>
+</div>
+</section>
+<section id="holiday-addons" class="py-5">
+    <div class="container text-center mb-5">
+        <h2 class="title-blue">HOLIDAY ADD-ONS</h2>
+        <h4 class="subtitle-blue">MAKE YOUR TRIP EVEN MORE SPECIAL</h4>
+    </div>
+    <div class="addon-container">
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6">
+                <div class="addon-card" id="addon-zeus">
+                    <div class="addon-info-box">
+                        <h5>Explore Zeus Cave</h5>
+                        <p>Crete, Greece <br>1 Hour 30 Min</p>
+                        <p class="addon-price"><span>$30</span> / Per Person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="addon-card" id="addon-acropolis">
+                    <div class="addon-info-box">
+                        <h5>Acropolis Photoshoot</h5>
+                        <p>Athens, Greece <br>2 Hours</p>
+                        <p class="addon-price"><span>$50</span> / Per Person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="addon-card" id="addon-greek-night">
+                    <div class="addon-info-box">
+                        <h5>Traditional Greek Night</h5>
+                        <p>Santorini, Greece <br>5 Hours</p>
+                        <p class="addon-price"><span>$70</span> / Per Person</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="addon-card" id="addon-boat">
+                    <div class="addon-info-box">
+                        <h5>Boat Sailing</h5>
+                        <p>Rhodes, Greece <br>2 Hours and 30 Min</p>
+                        <p class="addon-price"><span>$35</span> / Per Person</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+<footer id="main-footer"></footer>
+</body>
+</html>

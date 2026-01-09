@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympus Quest - Accommodations</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <meta name="description" content="Welcome to Olympus Quest. Explore Greece's ancient legends and untamed landscapes where every path tells a story.">
+    <meta name="keywords" content="travel, adventure, greece">
+    <meta name="author" content="Zdravko Narančić 68/24">
+    <meta name="copyright" content="Olympus Quest 2025 ©">
+
+    <link rel="stylesheet" href="css/accommodations.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script/accommodations.js" defer></script>
+    <script src="script/jquery_animations.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav id="main-nav">
+    </nav>
+
+    <main>
+        <div id="accommodations-hero">
+            <div class="hero-overlay">
+                <h1 class="hero-title fw-bold">FIND THE PERFECT STAY!</h1>
+            </div>
+        </div>
+
+        <section class="container mt-5">
+            <div class="filter-box-wrapper d-flex align-items-stretch">
+                <div class="filter-title-part d-flex align-items-center justify-content-center">
+                    <h2 class="fw-bold m-0 text-uppercase">ACCOMMODATION FILTER</h2>
+                </div>
+                <div class="filter-inputs-part p-5">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <label class="small fw-bold">Destination name:</label>
+                            <select id="filter-dest" class="form-select filter-input">
+                                <option value="all">Choose a destination...</option>
+                                <option value="Athens">Athens</option>
+                                <option value="Chios">Chios</option>
+                                <option value="Corfu">Corfu</option>
+                                <option value="Crete">Crete</option>
+                                <option value="Epirus">Epirus</option>
+                                <option value="Halkidiki">Halkidiki</option>
+                                <option value="Kefalonia">Kefalonia</option>
+                                <option value="Mykonos">Mykonos</option>
+                                <option value="Paros">Paros</option>
+                                <option value="Peloponnese">Peloponnese</option>
+                                <option value="Rhodes">Rhodes</option>
+                                <option value="Santorini">Santorini</option>
+                                <option value="Skiathos">Skiathos</option>
+                                <option value="Thessaloniki">Thessaloniki</option>
+                                <option value="Zante">Zante</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="small fw-bold">Location preference:</label>
+                            <select id="filter-loc" class="form-select filter-input">
+                                <option value="all">All Locations</option>
+                                <option value="Beach">Beach</option>
+                                <option value="City">City</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="small fw-bold">Accommodation type:</label>
+                            <select id="filter-type" class="form-select filter-input">
+                                <option value="all">Any Style</option>
+                                <option value="Hotel">Hotel</option>
+                                <option value="Villa">Villa</option>
+                                <option value="Apartment">Apartment</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="small fw-bold">Additions:</label>
+                            <select id="filter-add" class="form-select filter-input">
+                                <option value="all">Any</option>
+                                <option value="pool">Pool</option>
+                                <option value="spa">Spa</option>
+                                <option value="parking">Parking</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="small fw-bold">Type of Service:</label>
+                            <select id="filter-board" class="form-select filter-input">
+                                <option value="all">Any</option>
+                                <option value="All Inclusive">All Inclusive</option>
+                                <option value="Breakfast Only">Breakfast Only</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="small fw-bold">Budget:</label>
+                            <select id="sort-price" class="form-select filter-input">
+                                <option value="all">Lowest to Highest</option>
+                                <option value="expensive">Highest to Lowest</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5">
+            <div id="accommodations-grid" class="row g-4"></div>
+        </section>
+    </main>
+
+    <footer id="main-footer">
+ 
+    </footer>
+
+</body>
+</html>
