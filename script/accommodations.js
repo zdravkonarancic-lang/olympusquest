@@ -1,5 +1,5 @@
 const navLinks = [
-{name: "Home", link: "../index.html", active: false},
+{name: "Home", link: "index.html", active: false},
 {name: "Destinations", link: "destinations.html", active: false},
 {name: "Accommodations", link: "accommodations.html", active: true},
 {name: "About", link: "about.html", active: false},
