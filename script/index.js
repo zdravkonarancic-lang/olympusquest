@@ -159,7 +159,7 @@ btnLoadMore.addEventListener("click", () => {
                 </p>`
         btnLoadMore.textContent = "SHOW ALL";
     } else {
-        window.location.href = "pages/accommodations.html";
+        window.location.href = "accommodations.html";
     }
 });
 
